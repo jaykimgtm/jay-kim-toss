@@ -1,0 +1,219 @@
+{
+  "version": 1,
+  "placeholder": false,
+  "engine": "frames",
+  "keyframes": {
+    "K1": {
+      "src": "media/k1.jpg",
+      "w": 1920,
+      "h": 1080,
+      "srcset": [
+        {
+          "src": "media/k1-1280.jpg",
+          "w": 1280
+        },
+        {
+          "src": "media/k1.jpg",
+          "w": 1920
+        }
+      ]
+    },
+    "K2": {
+      "src": "media/k2.jpg",
+      "w": 1920,
+      "h": 1080,
+      "srcset": [
+        {
+          "src": "media/k2-1280.jpg",
+          "w": 1280
+        },
+        {
+          "src": "media/k2.jpg",
+          "w": 1920
+        }
+      ]
+    },
+    "K3": {
+      "src": "media/k3.jpg",
+      "w": 1920,
+      "h": 1080,
+      "srcset": [
+        {
+          "src": "media/k3-1280.jpg",
+          "w": 1280
+        },
+        {
+          "src": "media/k3.jpg",
+          "w": 1920
+        }
+      ]
+    },
+    "K4": {
+      "src": "media/k4.jpg",
+      "w": 1920,
+      "h": 1080,
+      "srcset": [
+        {
+          "src": "media/k4-1280.jpg",
+          "w": 1280
+        },
+        {
+          "src": "media/k4.jpg",
+          "w": 1920
+        }
+      ]
+    },
+    "K5": {
+      "src": "media/k5.jpg",
+      "w": 1920,
+      "h": 1080,
+      "srcset": [
+        {
+          "src": "media/k5-1280.jpg",
+          "w": 1280
+        },
+        {
+          "src": "media/k5.jpg",
+          "w": 1920
+        }
+      ]
+    }
+  },
+  "transitions": {
+    "T1": {
+      "mp4": "media/t1.mp4",
+      "frames": {
+        "dir": "media/t1",
+        "count": 117,
+        "ext": "avif",
+        "pad": 4
+      },
+      "fps": 24,
+      "duration": 4.875,
+      "w": 1920,
+      "h": 1080,
+      "from": "K1",
+      "to": "K2",
+      "bytes": {
+        "mp4": 1991013,
+        "frames": 1152275
+      }
+    },
+    "T2": {
+      "mp4": "media/t2.mp4",
+      "frames": {
+        "dir": "media/t2",
+        "count": 144,
+        "ext": "avif",
+        "pad": 4
+      },
+      "fps": 24,
+      "duration": 6.0,
+      "w": 1920,
+      "h": 1080,
+      "from": "K2",
+      "to": "K3",
+      "bytes": {
+        "mp4": 3050365,
+        "frames": 1749065
+      }
+    },
+    "T3": {
+      "mp4": "media/t3.mp4",
+      "frames": {
+        "dir": "media/t3",
+        "count": 141,
+        "ext": "avif",
+        "pad": 4
+      },
+      "fps": 24,
+      "duration": 5.875,
+      "w": 1920,
+      "h": 1080,
+      "from": "K3",
+      "to": "K4",
+      "bytes": {
+        "mp4": 3871344,
+        "frames": 2569173
+      }
+    },
+    "T4": {
+      "mp4": "media/t4.mp4",
+      "frames": {
+        "dir": "media/t4",
+        "count": 127,
+        "ext": "avif",
+        "pad": 4
+      },
+      "fps": 24,
+      "duration": 5.2917,
+      "w": 1920,
+      "h": 1080,
+      "from": "K4",
+      "to": "K5",
+      "bytes": {
+        "mp4": 3138377,
+        "frames": 2006032
+      }
+    }
+  },
+  "gaze": {
+    "frames": [
+      "media/gaze/00.avif",
+      "media/gaze/01.avif",
+      "media/gaze/02.avif",
+      "media/gaze/03.avif",
+      "media/gaze/04.avif",
+      "media/gaze/05.avif",
+      "media/gaze/06.avif",
+      "media/gaze/07.avif",
+      "media/gaze/08.avif",
+      "media/gaze/09.avif",
+      "media/gaze/10.avif",
+      "media/gaze/11.avif",
+      "media/gaze/12.avif",
+      "media/gaze/13.avif",
+      "media/gaze/14.avif",
+      "media/gaze/15.avif",
+      "media/gaze/16.avif",
+      "media/gaze/17.avif",
+      "media/gaze/18.avif",
+      "media/gaze/19.avif",
+      "media/gaze/20.avif",
+      "media/gaze/21.avif",
+      "media/gaze/22.avif",
+      "media/gaze/23.avif",
+      "media/gaze/24.avif"
+    ],
+    "centerIndex": 12,
+    "w": 1920,
+    "h": 1080
+  },
+  "holds": {
+    "H1": {
+      "src": "media/t1/0000.avif",
+      "w": 1920,
+      "h": 1080
+    },
+    "H2": {
+      "src": "media/t1/0116.avif",
+      "w": 1920,
+      "h": 1080
+    },
+    "H3": {
+      "src": "media/t2/0143.avif",
+      "w": 1920,
+      "h": 1080
+    },
+    "H4": {
+      "src": "media/t3/0140.avif",
+      "w": 1920,
+      "h": 1080
+    },
+    "H5": {
+      "src": "media/t4/0126.avif",
+      "w": 1920,
+      "h": 1080
+    }
+  }
+}
